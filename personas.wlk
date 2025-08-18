@@ -17,3 +17,17 @@ object estafania{
     } 
 
 }
+object luisa{
+    method leGusta(unaCosa) {
+        return unaCosa.material().esBrillante()
+    } 
+
+}
+
+object juan{
+    method leGusta(unaCosa) {
+        //return !unaCosa.color().esFuerte() or (unaCosa.peso() >= 1200 and unaCosa.peso() <= 1800 )
+        return !unaCosa.color().esFuerte() or unaCosa.peso().between(1200, 1800)
+    } 
+
+}
