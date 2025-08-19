@@ -5,7 +5,10 @@ object bolichito{
     var vidiera = munieco
     var mostrador = placa
 
-    method esBrillante() = vidiera.esBrillante() and mostrador.esBrillante()
+    method getVidriera() = vidiera
+    method getMostrador() = mostrador
+
+    method esBrillante() = (vidiera.material().esBrillante() and mostrador.material().esBrillante())
 
     method setVidriera(otraCosa) {
         vidiera = otraCosa
@@ -16,4 +19,6 @@ object bolichito{
         mostrador = otraCosa
       
     } 
+
+    method esMonocromatico() =  (vidiera.color() == mostrador.color())
 }
