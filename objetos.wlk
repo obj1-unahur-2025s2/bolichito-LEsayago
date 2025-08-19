@@ -85,11 +85,20 @@ object placa {
   }
 }
 
-/*Finalmente, considerar (al menos) estos objetos:
+object pelota {
+  method color() = pardo
+  method material() = cuero
+  method peso() = 1300  
+  
+}
 
-  - una _pelota_ parda de cuero, pesa 1300 gramos.
-  - una _biblioteca_ verde de madera, pesa 8000 gramos.
-*/
+object biblioteca {
+  method color() = verde
+  method material() = madera
+  method peso() = 8000
+  
+}
+
  
 
 
