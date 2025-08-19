@@ -85,5 +85,12 @@ object placa {
   }
 }
 
+/*Finalmente, considerar (al menos) estos objetos:
+
+  - una _pelota_ parda de cuero, pesa 1300 gramos.
+  - una _biblioteca_ verde de madera, pesa 8000 gramos.
+*/
+ 
+
 
 
